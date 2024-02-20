@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Cash In Pawn</string>
+    <!--DashBoard-->
+    <string name="dashboardDes">Dashboard</string>
+    <!--Pawning-->
+    <string name="CreateHeading">Pawning System</string>
+    <string name="CreateTextHeading1">Full Name</string>
+    <string name="CreateTextHeading2">NIC</string>
+    <string name="CreateTextHeading3">Telephone No</string>
+    <string name="CreateTextHeading4">Bank and Account No.</string>
+    <string name="CreateTextHeading5">Pickup Address</string>
+    <string name="CreateTextHeading6">Pawning Item</string>
+    <string name="CreateTextHeading7">Estimated Value Required</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnViewAll">View All Pawned Items</string>
+    <string-array name="pawning_item">
+        <item>Select Pawning Item</item>
+        <item>Gold</item>
+        <item>Vehicle</item>
+        <item>Land</item>
+    </string-array>
+
+    <!--ViewAll-->
+    <string name="btnUpdateSubmit1">Update</string>
+    <string name="btnDeleteSubmit1">Delete</string>
+    <string-array name="view_pawning">
+        <item>Gold</item>
+        <item>Vehicle</item>
+        <item>Land</item>
+    </string-array>
+
+    <string-array name="view_pawning2">
+        <item>Land</item>
+        <item>Vehicle</item>
+        <item>Gold</item>
+    </string-array>
+    <!--Update-->
+    <string name="UpdateHeading">Update Request</string>
+    <!--Delete-->
+    <string name="DeleteHeading">Delete Request</string>
+    <string name="DashBoard1">Pawning System</string>
+    <string name="DB_1">Pawning</string>
+    <string name="DashBoard2">Cash Returns</string>
+    <string name="DashBoard3">Customer Support</string>
+    <string name="DashBoard4">InfoHub</string>
+
+    <!--Login page and profile details-->
+    <!--index page-->
+    <string name="login_index">LOGIN</string>
+    <string name="create_btn_index">CREATE ACCOUNT</string>
+
+    <!--login page -->
+    <string name="login">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="signup_login">SIGN UP</string>
+
+    <!--register page-->
+    <string name="signup_id">Sign up</string>
+    <string name="userName">Full name</string>
+    <string name="userEmail">Email</string>
+    <string name="userNIC">NIC</string>
+    <string name="userADD">Address</string>
+    <string name="userTELE">Telephone Number</string>
+    <string name="userUSERNAME">Username</string>
+    <string name="userPASS">Password</string>
+    <string name="userRETYPASS">Re Enter Password</string>
+    <string name="check_box">I agree to terms and condition</string>
+    <string name="btn_submit_C">SUBMIT</string>
+    <string name="login_C">LOGIN</string>
+
+    <!--user account page-->
+    <string name="user_Acc">User Account</string>
+    <string name="name_Acc">Full Name :  W.A. Bihesha Dilshan</string>
+    <string name="email_Acc">Email :  dilshan0234@gmail.com</string>
+    <string name="nic_Acc">NIC :  325625120V</string>
+    <string name="add_Acc">Address :  125/5, kottawa, pannipitiya</string>
+    <string name="tele_Acc">Telephone Number :  0112354189</string>
+    <string name="user_view">Username :  Bihesha</string>
+    <string name="pass_Acc">Password :  ********</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_dele_Acc">Delete</string>
+    <string name="btnlogout">LOG OUT</string>
+
+    <!--update account page-->
+    <string name="upd_Acc">Update Account</string>
+    <string name="upd_button">Update</string>
+
+    <!--delete account page-->
+    <string name="dele_Acc">Delete Account</string>
+    <string name="dele_button">Delete my account</string>
+
+    <!-- Cash returns strings    -->
+    <string name="Cash_Return">CASH RETURN</string>
+    <string name="paw_ID" color="white">Pawing ID</string>
+    <string name="cashAmount">Cash Amount</string>
+    <string name="fullName">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="date_to_collect_your_pawn_item">Date to Collect Your Pawn Item</string>
+    <string name="viewBtn">View</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="payBtn">Pay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Return_text">CASH RETURN</string>
+    <string name="Update_text">UPDATE RETURN</string>
+    <string name="Update">UPDATE</string>
+    <string name="Delete">DELETE</string>
+    <string name="Delete_text">DELETE RETURN</string>
+    <string name="View_Return">VIEW RETURN</string>
+    <string name="View_btn">VIEW</string>
+    <string name="totCash">TOTAL CASH RETURNS</string>
+
+    <!-- Customer support-->
+    <!-- Create Page -->
+    <string name="CustomerSupportTitle">CUSTOMER SUPPORT</string>
+    <string name="FullNameText1">FULL NAME</string>
+    <string name="EmailText1">Email</string>
+    <string name="TelephoneNumberText1">Telephone Number</string>
+    <string name="SOM1">Subject Of Matter</string>
+    <string name="Message1">Message</string>
+    <string name="SubmitButton1">SUBMIT</string>
+    <string name="CancelButton1">CANCEL</string>
+    <string name="CreateRequestText">CREATE REQUEST</string>
+
+    <!-- Delete Page -->
+    <string name="Delete2">DELETE</string>
+
+    <!-- Update Page -->
+    <string name="UpdateButton3">UPDATE</string>
+    <string name="AllRequestsText">ALL REQUESTS</string>
+    <string name="DeleteRequestText">DELETE REQUEST</string>
+    <string name="UpdateRequestText">UPDATE REQUEST</string>
+    <string name="infohubparagraph">Cash In Pawn is a company that lets people pawn their precious belongings at a time they need money seriously. We intend keep users happy during their journey with us. They can request pawnings for their belongings and pay back what they are due when they can, for a interest. We will be always there for you in your tough times.</string>
+</resources>
+
+
