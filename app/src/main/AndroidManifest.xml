@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_01"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PawningSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.Activity_Cash_Return_calc"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PawnCalcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.InfoHub"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.InquiryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ActivityPawningDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ViewCustomerSupport"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CreateCustomerSupport"
+            android:exported="false" />
+        <activity
+            android:name=".activities.viewAllReturns"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CreateCashReturnActivity"
+            android:exported="false" />
+        <activity android:name=".activities.ActivityViewReturn"
+            android:exported="false"/>
+        <activity
+            android:name=".activities.Register"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ViewProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Index"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ActivityDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ActivityCreatePawnings"
+            android:exported="false" />
+        <activity android:name=".activities.ActivityViewPawnings" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
